@@ -85,9 +85,10 @@ and does not give an error
 
 ## Output Files
 The project generates three JSON files:
-academy_monthly_mobile_201507-202312.json: Monthly mobile access data.
-academy_monthly_desktop_201507-202312.json: Monthly desktop access data.
-academy_monthly_cumulative_201507-202312.json: Monthly cumulative data.
+- academy_monthly_mobile_201507-202312.json: Monthly mobile access data.
+- academy_monthly_desktop_201507-202312.json: Monthly desktop access data.
+- academy_monthly_cumulative_201507-202312.json: Monthly cumulative data.
+  
 Please refer to each file for detailed data on Wikipedia pageviews.
 
 **Please Note:** For more comprehensive information and code implementation, please consult the provided Jupyter Notebook(s).
