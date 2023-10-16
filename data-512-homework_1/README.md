@@ -89,7 +89,12 @@ The project generates three JSON files:
 - academy_monthly_desktop_201507-202312.json: Monthly desktop access data.
 - academy_monthly_cumulative_201507-202312.json: Monthly cumulative data.
   
-Please refer to each file for detailed data on Wikipedia pageviews.
+
+## Value of Fields
+
+An example row in the json file - [{"12 Years a Slave (film)": [{"project": "en.wikipedia", "granularity": "monthly", "timestamp": "2015070100", "views": 138151}, {"project": "en.wikipedia", "granularity": "monthly", "timestamp": "2015080100", "views": 122993}, {}]
+
+The data structure is a list of dictionaries (outer is for article level) within a list of dictionaries (inner is the time series data for each article)
 
 **Please Note:** For more comprehensive information and code implementation, please consult the provided Jupyter Notebook(s).
 
